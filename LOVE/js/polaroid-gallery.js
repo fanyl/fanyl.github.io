@@ -9,75 +9,75 @@ var polaroidGallery = (function () {
 
     var myArr = [
     {
-    "name": "../photos/1.jpg", 
+    "name": "1.jpg", 
     "caption": "♥"
     },
     {
-    "name": "../photos/2.jpg",
+    "name": "2.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/3.jpg",
+    "name": "3.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/4.jpg",
+    "name": "4.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/5.jpg", 
+    "name": "5.jpg", 
     "caption": "♥"
     },
     {
-    "name": "../photos/6.jpg", 
+    "name": "6.jpg", 
     "caption": "♥"
     },
     {
-    "name": "../photos/7.jpg", 
+    "name": "7.jpg", 
     "caption": "♥"
     },
     {
-    "name": "../photos/8.jpg", 
+    "name": "8.jpg", 
     "caption": "♥"
     },
     {
-    "name": "../photos/9.jpg",
+    "name": "9.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/10.jpg",
+    "name": "10.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/11.jpg",
+    "name": "11.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/12.jpg",
+    "name": "12.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/13.jpg",
+    "name": "13.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/14.jpg",
+    "name": "14.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/15.jpg",
+    "name": "15.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/16.jpg",
+    "name": "16.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/17.jpg",
+    "name": "17.jpg",
     "caption": "♥"
     },
     {
-    "name": "../photos/18.jpg",
+    "name": "18.jpg",
     "caption": "♥"
     }
     ];
@@ -90,7 +90,7 @@ var polaroidGallery = (function () {
         var i;
         for (i = 0; i < arr.length; i++) {
             out += '<figure id="' + i + '">' +
-                '<img src="img/' + arr[i].name + '" alt="' + arr[i].name + '"/>' +
+                '<img src="http://ome7xgjro.bkt.clouddn.com/' + arr[i].name + '" alt="' + arr[i].name + '"/>' +
                 '<figcaption>' + arr[i].caption + '</figcaption>' +
                 '</figure>';
         }
